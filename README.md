@@ -1,9 +1,9 @@
-Download the activate-windows file to activate it.
+# Windows Activator⭐
 
-If you dont want to download it here is the code:
-@echo off
-@echo run it as admin if you have errors.
-slmgr /ipk W269N-WFGWX-YVC9B-4J6C9-T83GX
-slmgr /skms kms8.msguides.com
-slmgr /ato
-pause
+### This file activates your windows for free.
+  ㅤㅤ 
+    ㅤㅤ
+ ㅤㅤㅤ  
+ ㅤㅤ  
+  ㅤㅤ 
+## Contact Me: https://www.youtube.com/@yahyaefe07 | secretlester07@gmail.com
