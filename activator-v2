@@ -1,0 +1,26 @@
+@echo off
+echo Which version of Windows do you want to activate?
+echo 1: Home
+echo 2: Home N
+echo 3: Professional 
+echo 4: Professional N
+echo 5: Education
+echo 6: Education N
+echo 7: Enterprise
+echo 8: Enterprise N
+echo 9: Windows 10/11 Edu
+set /p version="Enter the number corresponding to your version: "
+if "%version%"=="1" set key=TX9XD-98N7V-6WMQ6-BX7FG-H8Q99
+if "%version%"=="2" set key=3KHY7-WNT83-DGQKR-F7HPR-844BM
+if "%version%"=="3" set key=W269N-WFGWX-YVC9B-4J6C9-T83GX
+if "%version%"=="4" set key=MH37W-N47XK-V7XM9-C7227-GCQG9
+if "%version%"=="5" set key=NW6C2-QMPVW-D7KKK-3GKT6-VCFB2
+if "%version%"=="6" set key=2WH4N-8QGBV-H22JP-CT43Q-MDWWJ
+if "%version%"=="7" set key=NPPR9-FWDCX-D2C8J-H872K-2YT43
+if "%version%"=="8" set key=DPH2V-TTNVB-4X9Q3-TJR4H-KHJW4
+if "%version%"=="9" set key=W4KYN-V8X6R-XR28W-BY28K-Y7VYY
+slmgr /ipk %key%
+slmgr /skms kms8.msguides.com
+slmgr /ato
+echo Activated windows. If you have any issues saying slui.exe run this until it works.
+pause
